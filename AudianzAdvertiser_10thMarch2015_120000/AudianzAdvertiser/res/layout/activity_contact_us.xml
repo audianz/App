@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dim_40dp"
+        android:background="@color/redBgColor" >
+
+        <LinearLayout
+            android:id="@+id/ll_contact_back_icon"
+            android:layout_width="@dimen/dim_50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/contact_back_btn"
+                android:layout_width="@dimen/dim_25dp"
+                android:layout_height="@dimen/dim_15dp"
+                android:background="@drawable/backarrow" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/header_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/contact_us_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_10dp"
+        android:text="@string/contact_us"
+        android:textColor="@color/txt_gray_color"
+        android:textSize="@dimen/dim_17dp" />
+
+</LinearLayout>

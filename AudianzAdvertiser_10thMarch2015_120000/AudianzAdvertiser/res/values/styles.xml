@@ -1,0 +1,49 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Dialog">
+
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:windowIsFloating">true</item> -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="@android:background">#000000</item>
+        <item name="@android:textColor">#F2F2F2</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/royalblue</item>
+        <item name="android:bottomDark">@color/royalblue</item>
+        <item name="android:bottomMedium">@color/royalblue</item>
+        <item name="android:centerBright">@color/royalblue</item>
+        <item name="android:centerDark">@color/royalblue</item>
+        <item name="android:centerMedium">@color/royalblue</item>
+        <item name="android:fullBright">@color/royalblue</item>
+        <item name="android:fullDark">@color/royalblue</item>
+        <item name="android:topBright">@color/royalblue</item>
+        <item name="android:topDark">@color/royalblue</item>
+    </style>
+
+</resources>

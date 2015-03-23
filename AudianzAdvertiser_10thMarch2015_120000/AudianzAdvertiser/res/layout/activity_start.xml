@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_scr" >
+
+ 
+     <Button
+        android:id="@+id/signIn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dim_20dp"
+        android:background="@drawable/black_button"
+        android:gravity="center"
+        android:padding="@dimen/dim_10dp"
+        android:text="@string/lbl_already_regd"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_16dp" />
+     
+      <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signIn_btn"
+        android:layout_marginBottom="@dimen/dim_10dp"
+        android:background="@drawable/button_click"
+        android:gravity="center"
+        android:padding="@dimen/dim_5dp"
+        android:text="@string/lbl_get_start"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_18dp" />
+       
+      <Button
+        android:id="@+id/learnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startBtn"
+        android:background="@drawable/button_click"
+        android:layout_marginBottom="@dimen/dim_10dp"
+        android:gravity="center"
+        android:padding="@dimen/dim_5dp"
+        android:text="@string/lbl_learn_more"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_18dp" />
+    
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AudianzExpress</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="website_name">my.audianz.com</string>
+    <string name="registration_click">Registration</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="join_now">Join Now</string>
+    <string name="terms_of_use">You accept the <u>Terms of Use</u>  \n by clicking Join Now</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="mobilenum">Mobile No</string>
+    <string name="submit_click">Submit</string>
+    <string name="promote_now">Promote Now</string>
+    <string name="see_report">See Report</string>
+    <string name="re_run">Re-Run</string>
+    <string name="pause">Pause</string>
+    <string name="run">Run Now</string>
+    <string name="edit_campaign">Edit</string>
+    <string name="Confirm">Confirm</string>
+    <string name="lbl_how_many_consumers">How Many Local Consumers You Want To Reach?</string>
+    <string name="see_reports">See Reports</string>
+    <string name="my_profile">My Profile</string>
+    <string name="title_activity_promote">PromoteActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="campain_start_time">Campaign Start Time</string>
+    <string name="promotion_message">Promotion Message</string>
+    <string name="vicinity">Vicinity</string>
+    <string name="store_location">Store Location</string>
+    <string name="confirm_promotion">Confirm Promotion</string>
+    <string name="campain_name">Campaign Name</string>
+    <string name="select_date">Date</string>
+    <string name="click_to_call">Call</string>
+    <string name="click_to_web">Web</string>
+    <string name="click_to_location">Location</string>
+    <string name="lbl_email_hint">Enter email id</string>
+    <string name="lbl_password_hint">Enter password</string>
+    <string name="report_msg">When you start a promotion,\n you will see your reports here.</string>
+    <string name="lbl_land_msg">You\'re a few steps away from \n promoting your business to thousands of people around you</string>
+    <string name="lbl_already_regd">Already registered? Sign in</string>
+    <string name="lbl_get_start">Get Started</string>
+    <string name="lbl_learn_more">Learn More</string>
+    <string name="lbl_confirm_msg">Your Promotion Will Be Shown To \n All Consumers Near You</string>
+    <string name="net_not_available">Network unavailable</string>
+    <string name="net_time_out">Unable to connect to Server. Check your Internet connection</string>
+    <string name="server_not_rechable">Server not reachable</string>
+    <string name="server_not_found">Server unavailable. Please try later</string>
+    <string name="invalid_email_id">Please enter a valid email</string>
+    <string name="invalid_pass">Please enter password</string>
+    <string name="invalid_reg_detail">Please complete the form to Join</string>
+    <string name="invalid_name">Please enter a valid name</string>
+    <string name="invalid_business_name">Please enter a valid business name</string>
+    <string name="invalid_mobile">Please enter 10 digit mobile number</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="already_registered">Already registered</string>
+    <string name="reg_failed">Registration 
+        Failed</string>
+    <string name="faq_ques1">How do I create my promotion?</string>
+    <string name="faq_ques2">Who sees my promotion?</string>
+    <string name="faq_ques3">Can I set a date and time to launch my promotion?</string>
+    <string name="faq_ques4">After a promotion is live, can I pause it?</string>
+    <string name="faq_ques5">What should be my promotion text?</string>
+    <string name="faq_ques6">Do I see any reports?</string>
+    <string name="faq_ques7">If there are errors in my message how do I correct that?</string>
+    <string name="faq_ques8">How can I reach you for further clarifications?</string>
+    <string name="faq_ans1">It\'s a simple Tap on your mobile phone:\n\nSelect the number of consumers you want to see your promotion message \n\nEnter your promotion message \n\nSelect what you want someone to do when they see your message? \n\nTap \'Confirm\' &amp; Its Done! \n \nYour promotion message will be scheduled to go-live locally around your business.</string>
+    <string name="faq_ans2">Mobile users in your locality/neighborhood who are near your store or business.Typically it will range anywhere between 5 to 15 miles, which we optimize for every promotion.\n\nWe work with thousands of mobile APPs and mobile websites to show your promotion.When a mobile user who is near your business location and is using one of those APPs will see your promotion.\n\nWe work hard to ensure that your promotion is delivered at the right place, to the right person at the right time.</string>
+    <string name="faq_ans3">Yes, when you create the promotion you can set a specific start date and start time for the promotion to go-live.</string>
+    <string name="faq_ans4">No, you cannot pause a live promotion.</string>
+    <string name="faq_ans5">As a business owner you are the best person to know about your 
+        target consumers are and what they are looking for.We can only suggest the following tips:\n\nKeep the promotion message crisp &amp; short \n\nMake the promotion message local &amp; enticing \n\nMessage can be informational or with call to action \n \nFor example:
+        Happy Hour Today between 6 - 10 pm ! \nSandwich + Coffee $1 \nNeighborhood Cafe, 110, Main Drive \n</string>
+    <string name="faq_ans6">        Yes, you will be able to see simple reports which tells you: \n\nHow many local consumers saw your promotion message \n\nHow many consumer views still to be viewed    </string>
+    <string name="faq_ans7">        If you have launched your promotion, you cannot stop it. The only way to edit is to cancel your running campaign and then create a new campaign.</string>
+    <string name="faq_ans8">        The best way to reach us is at : contact@audianz.com. We will respond to your queries as a priority, always. </string>
+    <string name="about_us">        Promote a Sale, an Offer or a Happy Hour deal, advertise your retail store, your food store, your restaurant, your small business, your boutique, your morning cafe or your garage sale in your neighborhood area - you name it, you do it ! \n \n \nBusinesses small or big need to have a way to reach out to its thousands of local mobile users / consumers in a cost effective way - budget big or small ! \n \n \nAudianzLocal by Audianz Network is helping local businesses to reach out to the local mobile users &amp; consumers using Audianz\'s Local Mobile Advertising solution in few easy steps. Now you can promote your business or your offer on popular mobile apps and mobile websites - and we show those offers only to consumers around your businesses, thus increasing the intent of the consumers to either call you, buy from you or walk in your local store. \n \n \nAudianz Network is a specialized location based mobile advertising company.</string>
+    <string name="contact_us">        Contact Us at:\ncontact@audianz.com</string>
+    <string name="thankyou_promo">Thank You For Promoting with Audianz Platform. You can see your report on clicking See Report below</string>
+    <string name="login">LOG IN</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="continue_pass">Continue</string>
+    <string name="reset_desc">To reset your password,enter the email address you use to sign in to Audianz Express</string>
+    <string name="pass_change_success">Password successfully sent your email</string>
+    <string name="pass_change_error">pass_change_success</string>
+
+</resources>

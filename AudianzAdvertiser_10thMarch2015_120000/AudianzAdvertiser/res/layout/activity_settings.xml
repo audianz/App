@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dim_40dp"
+        android:background="@color/redBgColor"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="@dimen/dim_80dp"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/dim_10dp"
+            android:text="Edit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dim_16dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/header_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/signOut_btn"
+            android:layout_width="@dimen/dim_100dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/redBgColor"
+            android:gravity="center"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dim_16dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/busi_name_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="Your Business Name"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:background="@color/whiteBgColor"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="Your Name"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/address_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="Business Address"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:background="@color/whiteBgColor"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/city_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="City"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".999"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/state_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_10dp"
+                android:layout_weight=".5"
+                android:gravity="center_vertical"
+                android:hint="State"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+
+            <TextView
+                android:id="@+id/zip_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".5"
+                android:gravity="center_vertical"
+                android:hint="Zip Code"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:background="@color/whiteBgColor"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_5dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="Your email address"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/web_url_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_5dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="Your website&apos;s URL"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:background="@color/whiteBgColor"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mob_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dim_5dp"
+            android:layout_weight=".999"
+            android:gravity="center_vertical"
+            android:hint="Your mobile number"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".999"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/about_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_5dp"
+                android:layout_weight=".9"
+                android:gravity="center_vertical"
+                android:text="About"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+
+            <TextView
+                android:id="@+id/about_arrow_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_5dp"
+                android:layout_weight=".1"
+                android:gravity="center_vertical"
+                android:text=">"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".999"
+            android:background="@color/whiteBgColor"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/faq_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_5dp"
+                android:layout_weight=".9"
+                android:gravity="center_vertical"
+                android:text="FAQ"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+
+            <TextView
+                android:id="@+id/faq_arrow_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_5dp"
+                android:layout_weight=".1"
+                android:gravity="center_vertical"
+                android:text=">"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".09"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".999"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/contactus_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_5dp"
+                android:layout_weight=".9"
+                android:gravity="center_vertical"
+                android:text="Contact Us"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+
+            <TextView
+                android:id="@+id/contactus_arrow_tv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dim_5dp"
+                android:layout_weight=".1"
+                android:gravity="center_vertical"
+                android:text=">"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".001"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dim_1dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

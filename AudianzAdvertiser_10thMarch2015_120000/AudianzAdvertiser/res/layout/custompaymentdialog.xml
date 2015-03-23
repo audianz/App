@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dim_350dp"
+    android:layout_height="@dimen/dim_480dp"
+    android:background="@drawable/payment_ll_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/payment_header_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".4"
+        android:background="@drawable/payment_header_img"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/payment_ad_preview_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Location Ad Preview"
+            android:textColor="@color/txt_white_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/payment_business_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/payment_total_consumer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/payment_camp_start_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/payment_camp_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Location"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight=".6"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/ad_banner_preview_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/dim_10dp"
+                android:gravity="center"
+                android:padding="@dimen/dim_2dp"
+                android:text="Ad Banner Preview"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/banner_msg_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ad_banner_preview_tv"
+                android:layout_margin="@dimen/dim_5dp"
+                android:background="@drawable/banner"
+               
+                android:minHeight="@dimen/dim_50dp"
+                android:padding="@dimen/dim_2dp"
+                android:textColor="@color/txt_white_color"
+                android:textSize="@dimen/dim_15dp" />
+
+            <TextView
+                android:id="@+id/payment_user_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/banner_msg_tv"
+                android:layout_marginTop="@dimen/dim_10dp"
+                android:gravity="center"
+                android:padding="@dimen/dim_2dp"
+                android:text="User action for this campaign is "
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_16dp" />
+
+            <Button
+                android:id="@+id/payment_pay_inr_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_40dp"
+                android:layout_above="@+id/payment_go_back_btn"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pay_inr_bg"
+                android:text="Pay INR"
+                android:textColor="@color/txt_white_color"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/payment_go_back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/payment_btn_bg"
+                android:text="Go Back"
+                android:textColor="@color/redBgColor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_background">#00FF0000</color>
+	<color name="light_gray_bg">#f8f8f7</color>
+    <color name="seperator">#ffd1d3d4</color>
+    <color name="menu_seperator">#4e4e4e</color>
+    <color name="menu_seperator_bottom">#DDDDDD</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#353738</color>
+     <color name="golden_green">#71624a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#80FFFFFF</color>
+    <color name="blue">#00FFFF</color>
+    <color name="sky_blue">#EAF6F6</color>
+    <color name="green">#78A005</color>
+    <color name="amber">#FFC200</color>
+    <color name="login_bg">#cec7bb</color>
+    <color name="gray">#5B5B5B</color>
+    <color name="royalblue">#1E90FF</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gold">#FFD700</color>
+    <color name="olivegreen">#556B2F</color>
+    <color name="slateblue">#483D8B</color>
+    <color name="brick">#B22222</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="conversation">#1ea6e2</color>
+    <color name="myvobolo">#f58a25</color>
+    <color name="notes">#ffc200</color>
+    <color name="friends">#44c414</color>
+    <color name="settings">#4378d6</color>
+    <color name="logout">#d3450d</color>
+    <color name="title_name">#566569</color>
+    <color name="red">#7C0A02</color>
+    <color name="background_bar">#696969</color>
+    <color name="lightgrey">#F0F0F0</color>            <!--E1E1E1 -->
+    <color name="gender_bg">#C3C3C3</color>
+    <color name="read_blue">#2A597A</color>
+    <color name="read_myvobolo">#9B602E</color>
+    <color name="read_voicemail">#666768</color>
+    <color name="voicemail">#949699</color>
+    <color name="semitransparent">#60000000</color>
+    <color name="friends_highlight_blue">#377DC0</color>
+    <color name="friends_block_blue">#D8DADE</color>
+    
+    
+    <!-- Circular Recorder View Color Code -->
+    <color name="recoder_green">#609e43</color>
+    <color name="recoder_amber">#fff200</color>
+    <color name="recoder_red">#e41e25</color>
+    
+    <!-- color for conversation list xml -->
+    <color name="text_msg">#FF414141</color>
+    <color name="date">#FF556367</color>
+    <color name="failedtosendred">#FFB70A00</color>
+    <color name="receiverAudioMsg">#FF0B79B7</color>
+    <color name="senderAudioMsg">#FF609E40</color>
+    <color name="progressbar">#44000000</color>
+    <color name="readGreen">#476D3A</color>
+    
+    <!-- terms and conditions -->
+    <color name="offWhite">#DFDFDD</color>
+    
+    
+    <!--  Colors Added by Shyam -->
+    <color name="dateColor">#10bcc9</color>
+    <color name="textDescColor">#343434</color>
+    <color name="textHeaderColor">#040404</color>
+    <color name="bgColor">#e4e4e4</color>
+    <color name="redBgColor">#dd0a07</color>
+    <color name="tabgrayColor">#666666</color>
+    <color name="whiteBgColor">#ffffff</color>
+    <color name="txt_gray_color">#565555</color>
+    <color name="txt_white_color">#ffffff</color>
+    
+    
+    
+    <drawable name="Blue_color">#b0e0e6</drawable>
+    <drawable name="white_color">#ffffff</drawable>
+    <drawable name="black_color">#000000</drawable>
+    <drawable name="green_color">#347C2C</drawable>
+    <drawable name="pink_color">#FF00FF</drawable>
+    <drawable name="violet_color">#a020f0</drawable>
+    <drawable name="grey_color">#cccccc</drawable>
+    <drawable name="red_color">#C11B17</drawable>
+    <drawable name="yellow_color">#FFFF8C</drawable>
+    <drawable name="PowderBlue_color">#b0e0e6</drawable>
+    <drawable name="brown_color">#2F1700</drawable>
+    
+    
+    <drawable name="redBgColor">#dd0a07</drawable>
+    <drawable name="biegeBgColor">#c6996F</drawable>
+    <drawable name="whiteBgColor">#ffffff</drawable>
+    
+    
+
+</resources>

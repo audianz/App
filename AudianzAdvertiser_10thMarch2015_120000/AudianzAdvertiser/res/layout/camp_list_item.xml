@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBgColor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblCampId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="@dimen/dim_5dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:text="Campaign ID"
+            android:textSize="@dimen/dim_15dp" />
+
+        <TextView
+            android:id="@+id/lblCampIdItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingRight="@dimen/dim_10dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:textColor="@color/redBgColor"
+            android:textSize="@dimen/dim_15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_1dp"
+        android:background="@color/txt_gray_color" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblStartDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="@dimen/dim_5dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:text="Start Time"
+            android:textSize="@dimen/dim_15dp" />
+
+        <TextView
+            android:id="@+id/lblStartDateItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingRight="@dimen/dim_10dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:textColor="@color/redBgColor"
+            android:textSize="@dimen/dim_15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_1dp"
+        android:background="@color/txt_gray_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblImp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="@dimen/dim_5dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:text="Total Ads"
+            android:textSize="@dimen/dim_15dp" />
+
+        <TextView
+            android:id="@+id/lblImpItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingRight="@dimen/dim_10dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:textColor="@color/redBgColor"
+            android:textSize="@dimen/dim_15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/txt_gray_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblshownImp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="@dimen/dim_5dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:text="Total Ads Remaining"
+            android:textSize="@dimen/dim_15dp" />
+
+        <TextView
+            android:id="@+id/lblshownImpItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingRight="@dimen/dim_10dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:textColor="@color/redBgColor"
+            android:textSize="@dimen/dim_15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/txt_gray_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblcallWeb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="@dimen/dim_5dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:text="Call/Web"
+            android:textSize="@dimen/dim_15dp" />
+
+        <TextView
+            android:id="@+id/lblcallWebItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingRight="@dimen/dim_10dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:textColor="@color/redBgColor"
+            android:textSize="@dimen/dim_15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/txt_gray_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingLeft="@dimen/dim_5dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:text="Status"
+            android:textSize="@dimen/dim_15dp" />
+
+        <TextView
+            android:id="@+id/lblStatusItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="@dimen/dim_5dp"
+            android:paddingRight="@dimen/dim_10dp"
+            android:paddingTop="@dimen/dim_5dp"
+            android:textColor="@color/redBgColor"
+            android:textSize="@dimen/dim_15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/txt_gray_color" />
+
+    <LinearLayout
+        android:id="@+id/ll_camp_action"
+        android:layout_width="@dimen/dim_120dp"
+        android:layout_height="@dimen/dim_35dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/report_reRun_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_click"
+            android:textColor="@color/whiteBgColor"
+            android:text="@string/re_run"
+            android:textSize="@dimen/dim_18dp" />
+
+        <Button
+            android:id="@+id/report_pause_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_click"
+            android:text="@string/pause"
+            android:textColor="@color/whiteBgColor"
+            android:textSize="@dimen/dim_20dp" />
+
+        <Button
+            android:id="@+id/report_run_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_click"
+            android:text="@string/run"
+            android:textColor="@color/whiteBgColor"
+            android:textSize="@dimen/dim_20dp" />
+        
+        <Button
+            android:id="@+id/edit_campaign_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_click"
+            android:text="@string/edit_campaign"
+            android:textColor="@color/whiteBgColor"
+            android:textSize="@dimen/dim_20dp" />
+        
+        <Button
+            android:id="@+id/un_paid_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_click"
+            android:text="Pay Now"
+            android:textColor="@color/whiteBgColor"
+            android:textSize="@dimen/dim_20dp" />
+    </LinearLayout>
+
+</LinearLayout>

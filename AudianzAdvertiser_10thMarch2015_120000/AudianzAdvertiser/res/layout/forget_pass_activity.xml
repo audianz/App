@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dim_40dp"
+        android:background="@color/redBgColor" >
+
+        <LinearLayout
+            android:id="@+id/ll_forgetpass_back_icon"
+            android:layout_width="@dimen/dim_50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:gravity="center_vertical" >
+
+            <Button
+                android:id="@+id/about_back_btn"
+                android:layout_width="@dimen/dim_25dp"
+                android:layout_height="@dimen/dim_15dp"
+                android:background="@drawable/backarrow" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/header_reset_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Password Reset"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".35"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pass_reset__desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:layout_marginRight="@dimen/dim_10dp"
+            android:layout_marginTop="@dimen/dim_5dp"
+            android:text="@string/reset_desc"
+            android:textColor="@color/txt_gray_color"
+            android:textSize="@dimen/dim_15dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_10dp"
+            android:background="@color/whiteBgColor"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:src="@drawable/mail_icon" />
+
+            <EditText
+                android:id="@+id/pass_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.85"
+                android:background="@null"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/txt_gray_color"
+                android:textSize="@dimen/dim_15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".65"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dim_40dp"
+            android:layout_marginLeft="@dimen/dim_10dp"
+            android:layout_marginRight="@dimen/dim_10dp"
+            android:background="@drawable/button_click"
+            android:text="@string/continue_pass"
+            android:textColor="@color/txt_white_color"
+            android:textSize="@dimen/dim_18dp" />
+    </LinearLayout>
+
+</LinearLayout>
